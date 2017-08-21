@@ -19,7 +19,7 @@ C is a *compiled* language, meaning you use a compiler to translate the C code y
 
 gcc -o mystery-valentine mystery-valentine.c
 
-Notice that you get a file named a.out; please submit this file (1) in the tarball. You may run mystery-valentine with the command:
+Notice compilation creates a new file named mystery-valentine. You may run mystery-valentine with the command:
 
 ./mystery-valentine
 
@@ -64,7 +64,7 @@ lscpu
 qsub -I
 lscpu
 
-The first command checks the CPU of the login node. The second command starts an interactive shell on a compute node, meaning you get to interface directly with the compute node. Third command verifies this fact: note that the output of the first "lscpu" is different from the output of the second "lscpu". You can use the "qstat" command to check the status of your job. 
+The first command checks the CPU of the login node. The second command starts an interactive shell on a compute node, meaning you get to interface directly with the compute node. Third command verifies this fact: note that the output of the first "lscpu" is different from the output of the second "lscpu". You can use the "qstat" command to check the status of your job. To leave interactive mode and return to the login node, simply type "exit". 
 
 (3) SUBMISSION: Please create a job script for mystery-valentine.c named job-mystery.pbs. Verify that it runs correctly on Totient. 
 
