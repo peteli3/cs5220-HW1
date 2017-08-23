@@ -13,8 +13,8 @@ Your submission should include the following files:
 
 As this is the first homework, we want to make sure you understand how to submit our HWs properly. There are two options for submission: 
 
-* Submit tarball through CMS. This submission method requires you compress your submission directory. For quick instructions, see [here](https://www.mkyong.com/linux/how-to-zip-unzip-tar-in-unix-linux/)
-* Submit Git Repository link through CMS. This submission method requires you provide a link to a repository hosted on your personal git account. For instructions, see [here](http://www.cs.cornell.edu/courses/cs5220/2017fa/git-info.html)
+* Submit a tarball through CMS. This submission method requires you compress your submission directory. For quick instructions, see [here](https://www.mkyong.com/linux/how-to-zip-unzip-tar-in-unix-linux/)
+* Submit a Git Repository link through CMS. This submission method requires you provide a link to a repository hosted on your personal git account. For instructions, see [here](http://www.cs.cornell.edu/courses/cs5220/2017fa/git-info.html)
 
 As this is the first formal HW, we want to encourage students try both methods of submission, by both submitting a tarball and a Github link on CMS. Students who do so will receive a small amount of extra credit points
 
@@ -22,9 +22,9 @@ As this is the first formal HW, we want to encourage students try both methods o
 ## Manual Compilation of Code 
 
 
-C which will be extensively used for almost all of our HWs and projects. For those needing a introduction or refresh of C, please refer to the C Background section of the [Course Readings Page](http://www.cs.cornell.edu/courses/cs5220/2017fa/readings.html)
+C which will be extensively used for almost all of our HWs and projects. For those needing an introduction or refresh of C, please refer to the C Background section of the [Course Readings Page](http://www.cs.cornell.edu/courses/cs5220/2017fa/readings.html)
 
-C is a *compiled* language, meaning you use a compiler to translate the C code you've written into an executable program containing machine instructions. Python and Matlab are examples of languages that aren't compiled. Let's start with compilation basics. The GNU C Compiler (**gcc**) is a standard C compiler. We have provided code snippet **mystery-valentine.c**. Compile the code as follows:
+C is a *compiled* language, meaning you use a compiler to translate the C code you've written into an executable program containing machine instructions. Python and Matlab are examples of languages that aren't compiled. Let's start with compilation basics. The GNU C Compiler (**gcc**) is the standard C compiler. We have provided code snippet **mystery-valentine.c**. Compile the code as follows:
 
 ```
 gcc -o mystery-valentine mystery-valentine.c
@@ -100,7 +100,7 @@ SUBMISSION: Please create a job script for **mystery-valentine.c** named **job-m
 
 ## Important Concluding Thoughts
 
-If any of the concepts discussed in this HW were a bit hard to understand (including but not limited to: logging into Totient, Unix commands, makefiles, etc), don't worry! CS 5220 always enrolls students from a wide range of disciplines; it is not uncommon for this to be many students' first formal Computer Science Class. Throughout the semester, there will be many opportunities for students without a formal CS background to brush up on necessary information. 
+If any of the concepts used or discussed in this HW were a bit hard to understand (including but not limited to: logging into Totient, Unix commands, makefiles, etc), don't worry! CS 5220 always enrolls students from a wide range of disciplines; it is not uncommon for this to be many students' first formal Computer Science Class. Throughout the semester, there will be many opportunities for students without a formal CS background to brush up on necessary information. 
 
 We will take this opportunity to list one good resource: the [Scientific Software Club @ Cornell](https://cornell-ssw.github.io/) hosts workshops for people in STEM unfamiliar with popular computing tools. Unix and Version Control are two topics that will be covered early on. These workshops will be announced a bit later in the semester. We highly recommend you attend if you think it may help! Pizza will be provided. 
 
