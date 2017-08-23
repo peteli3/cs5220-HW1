@@ -56,7 +56,7 @@ make hello
 ```
 This calls the make recipe for hello, which in this case will simply compile **hello.c**. You can clean up the executable with the command
 
-While seeminly trivial for something like **hello.c**, makefiles are necessary for any non-trivial code and can become increadingly complex. We will use makefiles for all programming projects. Note that makefiles are not the only autmated method of building code; IDEs for example all have different ways of building code. 
+While seeminly trivial for something like **hello.c**, makefiles are necessary for any non-trivial code and can become increasingly complex. We will use makefiles for all programming projects. Note that makefiles are not the only automated method of building code; IDEs for example all use their own proprietary build systems. 
 ```
 make clean
 ```
@@ -80,7 +80,7 @@ make hello
 qsub job-hello.pbs
 ```
 
-The first command, as you should know by now, compiles **hello.c** into **hello**. The second submits **job-hello.pbs**, which simply executes hello on a random compute node, to the job queue (hence the name "qsub"). You can also run jobs in interactive mode. From the login node, type
+The first command, as you should know by now, compiles **hello.c** into **hello**. The second submits **job-hello.pbs**, which simply executes hello on a random compute node, to the job queue (hence the name **qsub**). You can also run jobs in interactive mode. From the login node, type
 
 ```
 lscpu
@@ -98,8 +98,9 @@ SUBMISSION: Please create a job script for **mystery-valentine.c** named **job-m
 
 
 
-## IMPORTANT LAST THOUGHTS
+## Important Concluding Thoughts
 
+If any of the concepts discussed in this HW were a bit hard to understand (including but not limited to: logging into Totient, Unix commands, makefiles, etc), don't worry! CS 5220 always enrolls students from a wide range of disciplines; it is not uncommon for this to be many students' first formal Computer Science Class. Throughout the semester, there will be many opportunities for students without a formal CS background to brush up on necessary information. 
 
-The [Scientific Software Club @ Cornell](https://cornell-ssw.github.io/) hosts workshops for people in STEM unfamiliar with popular computing tools. Unix and Version Control are two topics that will be covered early on. If any of the concepts discussed in this HW were a bit hard to understand (including but not limited to: logging into Totient, Unix commands, makefiles, etc), we highly recommend you join. We will announce these workshops a bit later in the semester. Pizza will be provided!
+We will take this opportunity to list one good resource: the [Scientific Software Club @ Cornell](https://cornell-ssw.github.io/) hosts workshops for people in STEM unfamiliar with popular computing tools. Unix and Version Control are two topics that will be covered early on. These workshops will be announced a bit later in the semester. We highly recommend you attend if you think it may help! Pizza will be provided. 
 
