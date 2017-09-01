@@ -39,7 +39,7 @@ Notice compilation creates a new file named **mystery-valentine**. You may run *
 You may also switch compilers. Different compilers offer different features. The Intel C Compiler (**icc**) is a popular compiler used in this class. The principle remains the same, except you have to load the compiler via the module system before using it. The first command loads **icc** into your system path via the module system, and the second compiles **mystery-valentine.c**:
 
 ```
-module load cs5220
+module load intel
 icc -o mystery-valentine mystery-valentine.c
 ```
 
