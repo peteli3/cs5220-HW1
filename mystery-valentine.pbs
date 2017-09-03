@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# single processor, 2min timeout, standard out file > standard error file
+
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=00:02:00
+#PBS -N mystery-valentine
+#PBS -j oe
+
+# cd into directory containing mystery-valentine
+cd "$PBS_O_WORKDIR"
+
+# compile c file, run binary
+gcc -o mystery-valentine mystery-valentine.c > /dev/null
+./mystery-valentine
